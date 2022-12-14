@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../portfolio/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <div class="loading"></div>
+    <div id="home">
+      <nav class="navbar">
+        <h1 class="logo">Mohmed.</h1>
+        <ul class="nav">
+          <li><a href="#home" class="list">Home</a></li>
+          <li><a href="#about" class="list">About</a></li>
+          <li><a href="#project" class="list">My Projects</a></li>
+          <li><a href="#contact" class="list">Contact</a></li>
+          <span class="navbar-toggler-icon"> </span>
+        </ul>
+      </nav>
+      <main class="container">
+        <div class="content-1">
+          <p>Web Developer</p>
+          <h1 class="dynamic-text">Hi, I'm<span> Mohmed Naim</span><br />From Toronto.</h1>
+        </div>
+        <div class="content-2">
+          <img src="../portfolio/image/logo.png" alt="Hi!!!" />
+        </div>
+      </main>
+    </div>
+    <!-- About me -->
+    <div id="about">
+      <div class="about-content">
+        <div class="about-col-1">
+          <img class="about-me-logo" src="../portfolio/image/about-me.png" height="500px" />
+        </div>
+        <div class="about-col-2">
+          <h2>About Me</h2>
+          <p>
+            I Loloribuperferendis non totam maxime doloremque neque, me doloremque neque, me doloremque neque, me
+            doloremque neque, dicta itaque? Veritatis, praesentium itaque!
+          </p>
+          <div class="title">
+            <p class="title-content t-1">Skills</p>
+            <p class="title-content t-2">Projects</p>
+            <p class="title-content t-3">Certificate</p>
+          </div>
+          <div class="tab-content">
+            <div class="content content-skill">
+              <ul class="">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>API</li>
+                <li>MongoDb</li>
+                <li>NodeJs</li>
+                <li>Git</li>
+              </ul>
+            </div>
+            <div class="content content-projects">
+              <ul class="">
+                <li>Yelp Project</li>
+                <li>Ecommerce Project</li>
+                <li>Clock</li>
+              </ul>
+            </div>
+            <div class="content content-cert">
+              <ul class="">
+                <li>Bootcamp Web Development 2022 - Udemy</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="project">
+        <h2 class="project-title">My Projects</h2>
+        <div class="project-container">
+          <div class="card">
+            <div class="card-content">
+              <img
+                class="project-img"
+                src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+              />
+              <p>Yelp Camp Website</p>
+              <a href="https://newyelpcampground.herokuapp.com/" target="_blank">Click Here</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <img
+                class="project-img"
+                src="https://images.unsplash.com/photo-1667418624689-540f55015c39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fHRvZG8lMjBsaXN0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <p>ToDo List</p>
+              <a href="#" target="_blank">Click Here</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <img
+                class="project-img"
+                src="https://images.unsplash.com/photo-1504197832061-98356e3dcdcf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2xvY2t8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+              />
+              <p>Analoge Clock</p>
+              <a href="../PRACTICE/CLOCK/index.html" target="_blank">Click Here</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-content">
+              <img
+                class="project-img"
+                src="https://images.unsplash.com/photo-1522069213448-443a614da9b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Z3Vlc3MlMjBnYW1lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              />
+              <p>Guess Game</p>
+              <a href="../PRACTICE/GUESSGAME/index.html" target="_blank">Click Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-container">
+        <form class="contact-form">
+          <label for="username">Username:</label><br />
+          <input type="text" placeholder="Username" id="username" required /><br />
+          <label for="email">Email:</label><br />
+          <input type="text" placeholder="email@email.com" id="email" required /><br />
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" cols="60" rows="6" placeholder="Type Your Message Here"></textarea>
+          <br />
+          <button class="btn" type="submit">Sumbit</button>
+        </form>
+      </div>
+      <div class="footer">
+        <div>
+          <p>Copyright &copy; Mohmed Naim 2022</p>
+        </div>
+        <div class="social-icon">
+          <a href="mailto:mnpatel432@gmail.com" class="contact-email"><img src="../portfolio/image/mail.svg" /></a>
+          <a href="http://www.linkedin.com/" target="_blank"><img src="../portfolio/image/linkedin.svg" /></a>
+          <a href="http://www.github.com" target="_blank"><img src="../portfolio/image/github.png" /></a>
+        </div>
+      </div>
+    </div>
+    <script src="../portfolio/script.js"></script>
+  </body>
+</html>
