@@ -352,10 +352,12 @@ h2{
     }
     
     #contact,#project, #about{
+        overflow-x: hidden;
         min-height : 50vh;
         margin: 0 6%;
     }
     .container{
+        overflow-x: hidden;
         align-items: center;
     }
     .content-1{
@@ -450,6 +452,7 @@ h2{
     }
 
     .nav-menu li{
+        overflow-x: hidden;
         padding-left: 0px
     }
 
