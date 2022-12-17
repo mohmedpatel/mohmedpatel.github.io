@@ -442,7 +442,11 @@ h2{
             background: linear-gradient(90deg, rgba(18,17,17,1) 16%, rgba(1,18,92,1) 84%, rgba(32,15,189,1) 100%);
             top: 0vh;
             transform: translateX(100%);
-            transition: transform 0.5 ease-in-out;
+            overflow-x: hidden;
+    }
+
+    .nav-bar{
+        overflow-x: hidden;
     }
 
     .nav-menu li{
@@ -468,8 +472,8 @@ h2{
 
   @media screen and (max-width: 560px) {
     .project-img {
-        width: 80px;
-        height: 120px;
+        width: 70px;
+        height: 110px;
       }
 
       .content-2 img {
@@ -478,7 +482,7 @@ h2{
       }
 
       .card-content {
-        padding: 15px;
+        padding: 10px;
       }
 
       .social-icon a i {
