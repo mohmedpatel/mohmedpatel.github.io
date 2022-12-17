@@ -32,3 +32,26 @@ const load = function(){
     document.getElementsByClassName("loading")[0].style.display = "none"
 }
 setTimeout(load ,2000)
+
+const bars = document.getElementsByClassName("fa-bars")[0]
+const toggle = document.getElementsByClassName("nav-menu")[0]
+
+
+bars.addEventListener("click", (e) => {
+    toggle.classList.toggle(('nav-active'))
+})
+
+toggle.firstElementChild.addEventListener("click", ()=>{
+    toggle.classList.toggle(('nav-active'))
+  })
+
+toggle.lastElementChild.addEventListener("click", ()=>{
+    toggle.classList.toggle(('nav-active'))
+  })
+toggle.firstElementChild.nextElementSibling.addEventListener("click", ()=>{
+    toggle.classList.toggle(('nav-active'))
+  })
+
+toggle.firstElementChild.nextElementSibling.nextElementSibling.addEventListener("click", ()=>{
+    toggle.classList.toggle(('nav-active'))
+  })
