@@ -34,11 +34,10 @@ const load = function(){
 setTimeout(load ,2000)
 
 const bars = document.getElementsByClassName("fa-bars")[0]
-const toggle = document.getElementsByClassName("nav-menu")[0]
-
+const navbar = document.getElementsByClassName("nav-menu")[0]
 
 bars.addEventListener("click", (e) => {
-    toggle.classList.toggle(('nav-active'))
+  navbar.classList.toggle(('nav-active'))
 })
 
 toggle.firstElementChild.addEventListener("click", ()=>{
