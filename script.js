@@ -1,3 +1,10 @@
+/**** Load Animation ****/
+const load = function(){
+  document.getElementsByClassName("loading")[0].style.display = "none"
+}
+setTimeout(load ,2000)
+
+/**** Project List ****/
 const titleContent = document.getElementsByClassName("title-content")
 const skill = document.getElementsByClassName("content-skill")[0]
 const projects = document.getElementsByClassName("content-projects")[0]
@@ -28,11 +35,8 @@ titleContent[2].addEventListener("click", ()=>{
     titleContent[0].style.borderBottom = "none"
 })
 
-const load = function(){
-    document.getElementsByClassName("loading")[0].style.display = "none"
-}
-setTimeout(load ,2000)
 
+/**** Navbar Menu ****/
 const bars = document.getElementsByClassName("fa-bars")[0]
 const navbar = document.getElementsByClassName("nav-menu")[0]
 
@@ -40,17 +44,17 @@ bars.addEventListener("click", (e) => {
   navbar.classList.toggle(('nav-active'))
 })
 
-toggle.firstElementChild.addEventListener("click", ()=>{
-    toggle.classList.toggle(('nav-active'))
+navbar.firstElementChild.addEventListener("click", ()=>{
+    navbar.classList.toggle(('nav-active'))
   })
 
-toggle.lastElementChild.addEventListener("click", ()=>{
-    toggle.classList.toggle(('nav-active'))
+navbar.lastElementChild.addEventListener("click", ()=>{
+    navbar.classList.toggle(('nav-active'))
   })
-toggle.firstElementChild.nextElementSibling.addEventListener("click", ()=>{
-    toggle.classList.toggle(('nav-active'))
+navbar.firstElementChild.nextElementSibling.addEventListener("click", ()=>{
+    navbar.classList.toggle(('nav-active'))
   })
 
-toggle.firstElementChild.nextElementSibling.nextElementSibling.addEventListener("click", ()=>{
-    toggle.classList.toggle(('nav-active'))
+navbar.firstElementChild.nextElementSibling.nextElementSibling.addEventListener("click", ()=>{
+    navbar.classList.toggle(('nav-active'))
   })
