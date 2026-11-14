@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E9EEE4"/><stop offset="1" stop-color="#D7E2D5"/></linearGradient><filter id="sh"><feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#294238" flood-opacity=".12"/></filter></defs>
+<rect width="1200" height="720" rx="34" fill="url(#bg)"/><circle cx="1080" cy="100" r="170" fill="#F8F7EF" opacity=".5"/>
+<rect x="70" y="54" width="1060" height="612" rx="28" fill="#FCFCF8" filter="url(#sh)"/>
+<text x="112" y="116" fill="#203B32" font-family="Arial" font-size="25" font-weight="700" letter-spacing="2">CUSTOMER EXPERIENCE</text><text x="112" y="151" fill="#7B8B80" font-family="Arial" font-size="15" letter-spacing="3">SERVICE PERFORMANCE OVERVIEW</text>
+<g fill="#F0F3EC"><rect x="112" y="186" width="290" height="118" rx="16"/><rect x="422" y="186" width="290" height="118" rx="16"/><rect x="732" y="186" width="356" height="118" rx="16"/></g>
+<g font-family="Arial"><g fill="#7B8B80" font-size="15"><text x="140" y="228">CALL ACTIVITY</text><text x="450" y="228">SERVICE LEVEL</text><text x="760" y="228">BRANCH COMPARISON</text></g><g fill="#25483B" font-size="36" font-weight="700"><text x="140" y="276">Volume</text><text x="450" y="276">Response</text><text x="760" y="276">North / South</text></g></g>
+<rect x="112" y="332" width="610" height="278" rx="18" fill="#F5F7F1"/><text x="145" y="377" fill="#344F42" font-family="Arial" font-size="19" font-weight="700">Call activity by time</text>
+<path d="M150 548H685 M150 493H685 M150 438H685" stroke="#DDE5DA" stroke-width="2"/>
+<path d="M170 525 L240 493 L310 507 L380 449 L450 468 L520 414 L590 447 L665 394" fill="none" stroke="#527A62" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M170 525 L240 493 L310 507 L380 449 L450 468 L520 414 L590 447 L665 394 L665 570 L170 570Z" fill="#AFC4AE" opacity=".25"/>
+<g fill="#527A62"><circle cx="170" cy="525" r="7"/><circle cx="240" cy="493" r="7"/><circle cx="310" cy="507" r="7"/><circle cx="380" cy="449" r="7"/><circle cx="450" cy="468" r="7"/><circle cx="520" cy="414" r="7"/><circle cx="590" cy="447" r="7"/><circle cx="665" cy="394" r="7"/></g>
+<rect x="746" y="332" width="342" height="278" rx="18" fill="#F5F7F1"/><text x="778" y="377" fill="#344F42" font-family="Arial" font-size="19" font-weight="700">Purpose mix</text>
+<circle cx="910" cy="492" r="76" fill="none" stroke="#DDE6DB" stroke-width="28"/><circle cx="910" cy="492" r="76" fill="none" stroke="#527A62" stroke-width="28" stroke-dasharray="270 478" transform="rotate(-90 910 492)"/><circle cx="910" cy="492" r="76" fill="none" stroke="#B7C8B5" stroke-width="28" stroke-dasharray="112 478" stroke-dashoffset="-280" transform="rotate(-90 910 492)"/>
+<text x="910" y="501" text-anchor="middle" fill="#25483B" font-family="Arial" font-size="25" font-weight="700">Mix</text></svg>
